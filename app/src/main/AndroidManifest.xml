@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.milonsheikh.androidwithretrofit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidRetrofitExample">
+        <activity
+            android:name="com.milonsheikh.androidwithretrofit.activity.DeleteActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.milonsheikh.androidwithretrofit.activity.PutPatchActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.milonsheikh.androidwithretrofit.activity.PostDataActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.milonsheikh.androidwithretrofit.activity.GetDataInSimpleViewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.milonsheikh.androidwithretrofit.activity.ManipulationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.milonsheikh.androidwithretrofit.activity.GetDataAndShowRecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.milonsheikh.androidwithretrofit.activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
